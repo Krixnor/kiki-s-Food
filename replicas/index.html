@@ -38,6 +38,20 @@
     }
 }
 
+/*@media (max-width: 768px) {
+  a {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  a {
+    font-size: 10px;
+  }
+}*/
+
+
+
 </style>
 <body>
         <nav class="navbar navbar-expand-lg bg-light pt-4 sticky-top">
@@ -88,14 +102,14 @@
         <!-- About section -->
         <div id="about" class="mt-5">
           
-          <div class="container mx-auto py-5">
+          <div class="container-fluid mx-auto py-5">
             <div class="row " >
-              <div class="col-md-6 align-content-center text-center" >
-                <div class="container-fluid " >
-                  <img src="images\res1.jpg" alt="" style="max-width: 100%;">
-                </div>
+              <div class="col-sm-6 col-12 mb-3 d-flex flex-column align-content-center">
+              <div class="image-container" style="overflow: hidden;">
+                <img class="h-100 w-100" src="images\res1.jpg" alt="" style="max-width: 100%;">
               </div>
-              <div class="col-md-6" >
+            </div>
+              <div class="col-md-6 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch" >
                 <h3 class="pt-2 mt-2">About Us</h3>
                 <h1 class="lh-1">HealthyFoods Resturant</h1>
                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique, maiores repellat accusantium velit voluptatem laboriosam ut rerum sequi dignissimos adipisci quae non eaque, nesciunt, asperiores voluptatum incidunt nam qui!</p>
@@ -113,76 +127,112 @@
           <h1 class="text-center text-md-center">Place Your Orders</h2>
             <div class="container mx-auto">
               <div class="row text-center mx-auto">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                  <div class="card text-center w-35 h-35 pt-3 px-4">
-                    <div class="img-card">
-                      <img src="images\foodiesfeed.com_fresh-fruit-salad-with-mint.jpg" class="rounded-4 img-fluid " alt="" width ="100%" >
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card card mb-3 text-center pt-3 px-4">
+                    <div class="card img-card">
+                      <img src="images\foodiesfeed.com_fresh-fruit-salad-with-mint.jpg" class="rounded-4 img-fluid my-3" alt="" width ="100%" >
                     </div>
-                    <div class="card-body">
-                      <h3 style="color: #131849; font-size: 1.399rem;">Healthy Fruit Salad</h3>
-                      <h4 class="text-muted ">Nurishing Fruit Salad</h4>
-                    </div>
+                      <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="text-sm">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary" >BUY</a>
+                  </div>
                   </div> 
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                  <div class="card text-center  w-35 h-35 pt-3 px-4">
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card text-center pt-3 px-4">
                     <div class="img-card">
-                      <img src="images\foodiesfeed.com_plate-of-noodles-with-shrimps.jpg" class="rounded-4 img-fluid" alt="" width ="100%" >
+                      <img src="images\foodiesfeed.com_plate-of-noodles-with-shrimps.jpg" class="rounded-4 img-fluid my-3" alt="" width ="100%" >
                     </div>
-                    <div class="card-body">
-                      <h3 >Noodles & Shrimps</h3>
-                      <h4 class="text-muted ">Enjoy the taste with shrimps</h4>
-                    </div>
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="res">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary">BUY</a>
+                  </div>
                   </div> 
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3 ">
-                  <div class="card text-center  w-35 h-35 pt-3 px-4">
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card text-center pt-3 px-4">
                     <div class="img-card">
-                      <img src="images\foodiesfeed.com_colorful-cocktails.jpg" class="rounded-4 img-fluid" alt="" width ="100%">
+                      <img src="images\foodiesfeed.com_colorful-cocktails.jpg" class="rounded-4 img-fluid my-3" alt="" width ="100%">
                     </div>
-                    <div class="card-body">
-                      <h3>Colourful Coctails</h3>
-                      <h4 class="text-muted">Enjoy the colorful coctails</h4>
-                    </div>
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="res">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary">BUY</a>
+                  </div>
                   </div> 
                 </div>
               
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                  <div class="card text-center w-35 h-35 pt-3 px-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card text-center pt-3 px-4">
                     <div class="img-card">
                       <img src="images\foodiesfeed.com_colorful-ice-cream-cone.jpg" class="rounded-4 img-fluid my-3" alt="" width ="100%" >
                     </div>
-                    <div class="card-body">
-                      <h3 >Colorful Ice-cream</h3>
-                      <h4 class="text-muted ">Brain Freeze!!!</h4>
-                    </div>
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="res">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary">BUY</a>
+                  </div>
                   </div> 
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                  <div class="card text-center  w-35 h-35 pt-3 px-4">
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card text-center pt-3 px-4">
                     <div class="img-card">
                       <img src="images\foodiesfeed.com_burger-with-melted-cheese.jpg" class="rounded-4 img-fluid my-3" alt="" width="100%" >
                     </div>
-                    <div class="card-body">
-                      <h3 >Burger Melted Cheese</h3>
-                      <h4 class="text-muted ">Tempting Burger</h4>
-                    </div>
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="res">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary">BUY</a>
+                  </div>
                   </div> 
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                  <div class="card text-center w-35 h-35 pt-3 px-4">
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 d-flex flex-column align-items-stretch">
+                  <div class="card text-center pt-3 px-4">
                     <div class="img-card">
                       <img src="images\pngegg2.png" class="rounded-4 img-fluid my-3" alt="" width="100%">
                     </div>
-                    <div class="card-body">
-                      <h3 >Fresh Vegetable Salad</h3>
-                      <h4 class="text-muted ">Enjoy the creamy Taste</h4>
-                    </div>
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                      <h3 class="res">Noodles & Shrimps</h3>
+                      <h4 class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        Enjoy the taste with shrimps and more text that doesn't affect the container size.
+                      </h4>
+                      <p class="card-text">Price: $19.99</p>
+                      <a href="#" class="btn btn-primary">BUY</a>
+                  </div>
                   </div> 
                 </div>
+
               </div>
             </div>
         </div>
+
+        <!-- Menu ends here -->
         
         <!-- Team -->
         <div id="team" class="mt-5">
@@ -196,7 +246,7 @@
                               <img src="images\chef.jpg" alt="Chef 1" class="py-3">
                           </div>
                           <div class="chef-name">
-                             <h4 class="bg-body #131849">Jen Daniels</h4>
+                             <h4 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="bg-body #131849">Jen Daniels</h4>
                              <p class="fw-bold text-muted">Executive Chef</p>
                           </div>
                       </div>
@@ -207,7 +257,7 @@
                             <img src="images\chef2.jpg" alt="Chef 1" class="py-3">
                         </div>
                         <div class="chef-name">
-                            <h4>Nana Tega</h4>
+                            <h4 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Nana Tega</h4>
                             <p class="text-muted fw-bolder">Head Chef</p>
                         </div>
                     </div>
@@ -218,7 +268,7 @@
                           <img src="images\chef3.jpg" alt="Chef 1" class="py-3">
                       </div>
                       <div class="chef-name">
-                          <h4>Taiwo Johnson</h4>
+                          <h4 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Taiwo Johnson</h4>
                           <p class="text-muted fw-bolder">Chef</p>
                       </div>
                   </div>
@@ -229,7 +279,7 @@
                         <img src="images\chef4.jpg" alt="Chef 1" class="py-3" >
                     </div>
                     <div class="chef-name">
-                        <h4>Rowland Diggs</h4>
+                        <h4 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Rowland Diggs</h4>
                         <p class="fw-bolder text-muted">Chef</p>
                     </div>
                 </div>
@@ -277,12 +327,12 @@
               <div class="col-md-4 col-sm-12">
                 <div class="card text-center mb-3" style="max-width: 100%;">
                   <div class="img-card ">
-                    <img src="images\food2.jpg" class="img-fluid h-50 card-img-top"  alt="" style="height: 120px; ">
+                    <img src="images\food2.jpg" class="img-fluid h-50 card-img-top"  alt="" style="height: 300px; ">
                   </div>
                   <div class="card-body text-start">
                     <p class="text-muted fw-light">July 20, 2022</p>
-                    <p class="card-title ">Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
+                    <p class="card-title " >Lorem ipsum dolor sit amet consectetur.</p>
+                    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
                     <a href="" class="nav-link active">Read more >>></a>
                   </div>
                     
@@ -291,12 +341,12 @@
               <div class="col-md-4 col-sm-12">
                 <div class="card text-center mb-3">
                   <div class="img-card ">
-                    <img src="images\foodiesfeed.com_healthy-food.jpg" class="img-fluid h-50 card-img-top"  alt="" style="height: 410px; ">
+                    <img src="images\foodiesfeed.com_healthy-food.jpg" class="img-fluid h-50 card-img-top"  alt="" style="height: 300px; ">
                   </div>
                   <div class="card-body text-start">
                     <p class="text-muted fw-light">July 20, 2022</p>
                     <p class="card-title  ">Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
+                    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
                     <a href="" class="nav-link active">Read more >>></a>
                   </div>
                 </div>
@@ -308,8 +358,8 @@
                   </div>
                   <div class="card-body text-start">
                     <p class="text-muted fw-light">July 20, 2022</p>
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
+                    <p class="card-title" >Lorem ipsum dolor sit amet consectetur.</p>
+                    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis reiciendis iure deleniti nesciunt veritatis impedit error adipisci dignissimos illo minima...</p>
                     <a href="" class="nav-link active">Read more >>></a>
                   </div>
                 </div>
